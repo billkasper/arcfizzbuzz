@@ -1,0 +1,40 @@
+﻿Build started 9/4/2012 11:11:10 PM.
+     1>Project "C:\Documents and Settings\x\My Documents\Visual Studio 2010\Projects\ARCfizzbuzzDLL\ARCfizzbuzzDLL\ARCfizzbuzzDLL.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\ARCfizzbuzzDLL.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Debug\ARCfizzbuzzDLL.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         g:\root\windows\dev\VC2010\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D ARCFIZZBUZZDLL_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\ARCfizzbuzzDLL.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         g:\root\windows\dev\VC2010\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D ARCFIZZBUZZDLL_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\ARCfizzbuzzDLL.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ARCfizzbuzzDLL.cpp
+         ARCfizzbuzzDLL.cpp
+         g:\root\windows\dev\VC2010\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D ARCFIZZBUZZDLL_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt dllmain.cpp
+         dllmain.cpp
+       ManifestResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\ARCfizzbuzzDLL.dll.embed.manifest.res" Debug\ARCfizzbuzzDLL_manifest.rc 
+       Link:
+         g:\root\windows\dev\VC2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Documents and Settings\x\My Documents\Visual Studio 2010\Projects\ARCfizzbuzzDLL\Debug\ARCfizzbuzzDLL.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\ARCfizzbuzzDLL.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Documents and Settings\x\My Documents\Visual Studio 2010\Projects\ARCfizzbuzzDLL\Debug\ARCfizzbuzzDLL.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Documents and Settings\x\My Documents\Visual Studio 2010\Projects\ARCfizzbuzzDLL\Debug\ARCfizzbuzzDLL.lib" /MACHINE:X86 /DLL Debug\ARCfizzbuzzDLL.dll.embed.manifest.res
+         Debug\ARCfizzbuzzDLL.obj
+         Debug\dllmain.obj
+         Debug\stdafx.obj
+            Creating library C:\Documents and Settings\x\My Documents\Visual Studio 2010\Projects\ARCfizzbuzzDLL\Debug\ARCfizzbuzzDLL.lib and object C:\Documents and Settings\x\My Documents\Visual Studio 2010\Projects\ARCfizzbuzzDLL\Debug\ARCfizzbuzzDLL.exp
+       Manifest:
+         Deleting file "Debug\ARCfizzbuzzDLL.dll.embed.manifest".
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\ARCfizzbuzzDLL.dll.embed.manifest" /manifest Debug\ARCfizzbuzzDLL.dll.intermediate.manifest
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\ARCfizzbuzzDLL.dll.embed.manifest.res" Debug\ARCfizzbuzzDLL_manifest.rc 
+       LinkEmbedManifest:
+         g:\root\windows\dev\VC2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Documents and Settings\x\My Documents\Visual Studio 2010\Projects\ARCfizzbuzzDLL\Debug\ARCfizzbuzzDLL.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\ARCfizzbuzzDLL.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Documents and Settings\x\My Documents\Visual Studio 2010\Projects\ARCfizzbuzzDLL\Debug\ARCfizzbuzzDLL.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Documents and Settings\x\My Documents\Visual Studio 2010\Projects\ARCfizzbuzzDLL\Debug\ARCfizzbuzzDLL.lib" /MACHINE:X86 /DLL Debug\ARCfizzbuzzDLL.dll.embed.manifest.res
+         Debug\ARCfizzbuzzDLL.obj
+         Debug\dllmain.obj
+         Debug\stdafx.obj
+            Creating library C:\Documents and Settings\x\My Documents\Visual Studio 2010\Projects\ARCfizzbuzzDLL\Debug\ARCfizzbuzzDLL.lib and object C:\Documents and Settings\x\My Documents\Visual Studio 2010\Projects\ARCfizzbuzzDLL\Debug\ARCfizzbuzzDLL.exp
+         ARCfizzbuzzDLL.vcxproj -> C:\Documents and Settings\x\My Documents\Visual Studio 2010\Projects\ARCfizzbuzzDLL\Debug\ARCfizzbuzzDLL.dll
+       FinalizeBuildStatus:
+         Deleting file "Debug\ARCfizzbuzzDLL.unsuccessfulbuild".
+         Touching "Debug\ARCfizzbuzzDLL.lastbuildstate".
+     1>Done Building Project "C:\Documents and Settings\x\My Documents\Visual Studio 2010\Projects\ARCfizzbuzzDLL\ARCfizzbuzzDLL\ARCfizzbuzzDLL.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.95

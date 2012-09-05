@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C++ Express 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ARCfizzbuzzDLL", "ARCfizzbuzzDLL\ARCfizzbuzzDLL.vcxproj", "{981B098C-73DE-4CBA-B6E1-B410A4A1B4CB}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ARCfizzbuzzTest", "ARCfizzbuzzTest\ARCfizzbuzzTest.vcxproj", "{05EFF667-B671-4122-9F2A-CB2558CC703E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{981B098C-73DE-4CBA-B6E1-B410A4A1B4CB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{981B098C-73DE-4CBA-B6E1-B410A4A1B4CB}.Debug|Win32.Build.0 = Debug|Win32
+		{981B098C-73DE-4CBA-B6E1-B410A4A1B4CB}.Release|Win32.ActiveCfg = Release|Win32
+		{981B098C-73DE-4CBA-B6E1-B410A4A1B4CB}.Release|Win32.Build.0 = Release|Win32
+		{05EFF667-B671-4122-9F2A-CB2558CC703E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{05EFF667-B671-4122-9F2A-CB2558CC703E}.Debug|Win32.Build.0 = Debug|Win32
+		{05EFF667-B671-4122-9F2A-CB2558CC703E}.Release|Win32.ActiveCfg = Release|Win32
+		{05EFF667-B671-4122-9F2A-CB2558CC703E}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,27 @@
+﻿Build started 9/4/2012 11:11:14 PM.
+     1>Project "C:\Documents and Settings\x\My Documents\Visual Studio 2010\Projects\ARCfizzbuzzDLL\ARCfizzbuzzTest\ARCfizzbuzzTest.vcxproj" on node 3 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\ARCfizzbuzzTest.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Debug\ARCfizzbuzzTest.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         g:\root\windows\dev\VC2010\VC\bin\CL.exe /c /I"C:\Documents and Settings\x\My Documents\Visual Studio 2010\Projects\ARCfizzbuzzDLL\ARCfizzbuzzDLL" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ARCfizzbuzzTest.cpp stdafx.cpp
+         stdafx.cpp
+         ARCfizzbuzzTest.cpp
+         Generating Code...
+       Link:
+         g:\root\windows\dev\VC2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Documents and Settings\x\My Documents\Visual Studio 2010\Projects\ARCfizzbuzzDLL\Debug\ARCfizzbuzzTest.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\ARCfizzbuzzTest.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Documents and Settings\x\My Documents\Visual Studio 2010\Projects\ARCfizzbuzzDLL\Debug\ARCfizzbuzzTest.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Documents and Settings\x\My Documents\Visual Studio 2010\Projects\ARCfizzbuzzDLL\Debug\ARCfizzbuzzTest.lib" /MACHINE:X86 Debug\ARCfizzbuzzTest.obj
+         Debug\stdafx.obj
+         "C:\Documents and Settings\x\My Documents\Visual Studio 2010\Projects\ARCfizzbuzzDLL\Debug\ARCfizzbuzzDLL.lib"
+     1>ARCfizzbuzzTest.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+         ARCfizzbuzzTest.vcxproj -> C:\Documents and Settings\x\My Documents\Visual Studio 2010\Projects\ARCfizzbuzzDLL\Debug\ARCfizzbuzzTest.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Documents and Settings\x\My Documents\Visual Studio 2010\Projects\ARCfizzbuzzDLL\Debug\ARCfizzbuzzTest.exe;#1" /manifest Debug\ARCfizzbuzzTest.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\ARCfizzbuzzTest.unsuccessfulbuild".
+         Touching "Debug\ARCfizzbuzzTest.lastbuildstate".
+     1>Done Building Project "C:\Documents and Settings\x\My Documents\Visual Studio 2010\Projects\ARCfizzbuzzDLL\ARCfizzbuzzTest\ARCfizzbuzzTest.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.04

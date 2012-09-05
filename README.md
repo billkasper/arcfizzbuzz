@@ -1,4 +1,0 @@
-arcfizzbuzz
-===========
-
-ARC fizzbuzz
